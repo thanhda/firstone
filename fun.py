@@ -13,7 +13,13 @@ def cubic(n):
     return n*n*n
 
 def factor(n):
-    if n == 0: return 1
+    if n == 0 or n == 1: return 1
     else:
         return n*factor(n - 1)
+    
+def fibo(n):
+    if n == 0: return 0
+    if n == 1: return 1
+    else:
+        return fibo(n - 2) + fibo(n - 1)
     
