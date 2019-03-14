@@ -1,0 +1,9 @@
+[
+  "test_fun.py::test_square[3-9]",
+  "test_fun.py::test_square[2-4]",
+  "test_fun.py::test_cubic[3-27]",
+  "test_fun.py::test_cubic[2-8]",
+  "test_fun.py::test_factor[3-6]",
+  "test_fun.py::test_factor[5-120]",
+  "test_fun.py::test_factor[7-5040]"
+]
