@@ -9,7 +9,6 @@ import re
 def find_word(filename, word):
     with open(filename, 'r') as fo:
         res = re.findall(word, fo.read())
-        fo.close()
         return res
 
 def print_res(result):
